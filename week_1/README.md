@@ -42,7 +42,7 @@ A: The latest versions of Anaconda provide users with the GUI launchers. Just do
 A: You can [create](https://conda.io/docs/user-guide/tasks/manage-environments.html) a new virtual environment with the version of Python you like. And then [add](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) this kernel to Jupyter Notebook. 
 
 ```
-conda create -n py36 python=3.6.3
+conda create -n py36 python=3.6.7
 source activate py36
 python -m ipykernel install --name py36
 source deactivate
